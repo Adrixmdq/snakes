@@ -1,0 +1,524 @@
+ [
+    {
+      "n_Anio": 2017,
+      "n_mes": 1,
+      "n_InflacionMensual": 1.59,
+      "n_InflacionAcumulada": 1.59
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 2,
+      "n_InflacionMensual": 2.07,
+      "n_InflacionAcumulada": 3.69
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 3,
+      "n_InflacionMensual": 2.37,
+      "n_InflacionAcumulada": 6.15
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 4,
+      "n_InflacionMensual": 2.66,
+      "n_InflacionAcumulada": 8.97
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 5,
+      "n_InflacionMensual": 1.43,
+      "n_InflacionAcumulada": 10.53
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 6,
+      "n_InflacionMensual": 1.19,
+      "n_InflacionAcumulada": 11.85
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 7,
+      "n_InflacionMensual": 1.73,
+      "n_InflacionAcumulada": 13.78
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 8,
+      "n_InflacionMensual": 1.4,
+      "n_InflacionAcumulada": 15.38
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 9,
+      "n_InflacionMensual": 1.9,
+      "n_InflacionAcumulada": 17.57
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 10,
+      "n_InflacionMensual": 1.51,
+      "n_InflacionAcumulada": 19.34
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 11,
+      "n_InflacionMensual": 1.38,
+      "n_InflacionAcumulada": 20.99
+    },
+    {
+      "n_Anio": 2017,
+      "n_mes": 12,
+      "n_InflacionMensual": 3.14,
+      "n_InflacionAcumulada": 24.79
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 1,
+      "n_InflacionMensual": 1.76,
+      "n_InflacionAcumulada": 1.76
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 2,
+      "n_InflacionMensual": 2.42,
+      "n_InflacionAcumulada": 4.22
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 3,
+      "n_InflacionMensual": 2.34,
+      "n_InflacionAcumulada": 6.66
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 4,
+      "n_InflacionMensual": 2.74,
+      "n_InflacionAcumulada": 9.58
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 5,
+      "n_InflacionMensual": 2.08,
+      "n_InflacionAcumulada": 11.86
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 6,
+      "n_InflacionMensual": 3.74,
+      "n_InflacionAcumulada": 16.05
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 7,
+      "n_InflacionMensual": 3.1,
+      "n_InflacionAcumulada": 19.64
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 8,
+      "n_InflacionMensual": 3.89,
+      "n_InflacionAcumulada": 24.3
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 9,
+      "n_InflacionMensual": 6.53,
+      "n_InflacionAcumulada": 32.42
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 10,
+      "n_InflacionMensual": 5.39,
+      "n_InflacionAcumulada": 39.55
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 11,
+      "n_InflacionMensual": 3.15,
+      "n_InflacionAcumulada": 43.95
+    },
+    {
+      "n_Anio": 2018,
+      "n_mes": 12,
+      "n_InflacionMensual": 2.57,
+      "n_InflacionAcumulada": 47.65
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 1,
+      "n_InflacionMensual": 2.9,
+      "n_InflacionAcumulada": 2.9
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 2,
+      "n_InflacionMensual": 3.8,
+      "n_InflacionAcumulada": 6.81
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 3,
+      "n_InflacionMensual": 4.7,
+      "n_InflacionAcumulada": 11.83
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 4,
+      "n_InflacionMensual": 3.4,
+      "n_InflacionAcumulada": 15.63
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 5,
+      "n_InflacionMensual": 3.1,
+      "n_InflacionAcumulada": 19.22
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 6,
+      "n_InflacionMensual": 2.7,
+      "n_InflacionAcumulada": 22.44
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 7,
+      "n_InflacionMensual": 2.2,
+      "n_InflacionAcumulada": 25.13
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 8,
+      "n_InflacionMensual": 4,
+      "n_InflacionAcumulada": 30.13
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 9,
+      "n_InflacionMensual": 5.9,
+      "n_InflacionAcumulada": 37.81
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 10,
+      "n_InflacionMensual": 3.3,
+      "n_InflacionAcumulada": 42.36
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 11,
+      "n_InflacionMensual": 4.3,
+      "n_InflacionAcumulada": 48.48
+    },
+    {
+      "n_Anio": 2019,
+      "n_mes": 12,
+      "n_InflacionMensual": 3.7,
+      "n_InflacionAcumulada": 53.98
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 1,
+      "n_InflacionMensual": 2.3,
+      "n_InflacionAcumulada": 2.3
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 2,
+      "n_InflacionMensual": 2,
+      "n_InflacionAcumulada": 4.35
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 3,
+      "n_InflacionMensual": 3.3,
+      "n_InflacionAcumulada": 7.79
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 4,
+      "n_InflacionMensual": 1.5,
+      "n_InflacionAcumulada": 9.41
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 5,
+      "n_InflacionMensual": 1.5,
+      "n_InflacionAcumulada": 11.05
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 6,
+      "n_InflacionMensual": 2.2,
+      "n_InflacionAcumulada": 13.49
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 7,
+      "n_InflacionMensual": 1.9,
+      "n_InflacionAcumulada": 15.65
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 8,
+      "n_InflacionMensual": 2.7,
+      "n_InflacionAcumulada": 18.77
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 9,
+      "n_InflacionMensual": 2.8,
+      "n_InflacionAcumulada": 22.09
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 10,
+      "n_InflacionMensual": 3.8,
+      "n_InflacionAcumulada": 26.73
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 11,
+      "n_InflacionMensual": 3.2,
+      "n_InflacionAcumulada": 30.79
+    },
+    {
+      "n_Anio": 2020,
+      "n_mes": 12,
+      "n_InflacionMensual": 4,
+      "n_InflacionAcumulada": 36.02
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 1,
+      "n_InflacionMensual": 4,
+      "n_InflacionAcumulada": 4
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 2,
+      "n_InflacionMensual": 3.6,
+      "n_InflacionAcumulada": 7.74
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 3,
+      "n_InflacionMensual": 4.8,
+      "n_InflacionAcumulada": 12.92
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 4,
+      "n_InflacionMensual": 4.1,
+      "n_InflacionAcumulada": 17.55
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 5,
+      "n_InflacionMensual": 3.3,
+      "n_InflacionAcumulada": 21.42
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 6,
+      "n_InflacionMensual": 3.2,
+      "n_InflacionAcumulada": 25.31
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 7,
+      "n_InflacionMensual": 3,
+      "n_InflacionAcumulada": 29.07
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 8,
+      "n_InflacionMensual": 2.5,
+      "n_InflacionAcumulada": 32.3
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 9,
+      "n_InflacionMensual": 3.5,
+      "n_InflacionAcumulada": 36.93
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 10,
+      "n_InflacionMensual": 3.5,
+      "n_InflacionAcumulada": 41.72
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 11,
+      "n_InflacionMensual": 2.5,
+      "n_InflacionAcumulada": 45.26
+    },
+    {
+      "n_Anio": 2021,
+      "n_mes": 12,
+      "n_InflacionMensual": 3.8,
+      "n_InflacionAcumulada": 50.78
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 1,
+      "n_InflacionMensual": 3.9,
+      "n_InflacionAcumulada": 3.9
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 2,
+      "n_InflacionMensual": 4.7,
+      "n_InflacionAcumulada": 8.78
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 3,
+      "n_InflacionMensual": 6.7,
+      "n_InflacionAcumulada": 16.07
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 4,
+      "n_InflacionMensual": 6,
+      "n_InflacionAcumulada": 23.04
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 5,
+      "n_InflacionMensual": 5.1,
+      "n_InflacionAcumulada": 29.31
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 6,
+      "n_InflacionMensual": 5.3,
+      "n_InflacionAcumulada": 36.16
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 7,
+      "n_InflacionMensual": 7.4,
+      "n_InflacionAcumulada": 46.24
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 8,
+      "n_InflacionMensual": 7,
+      "n_InflacionAcumulada": 56.48
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 9,
+      "n_InflacionMensual": 6.2,
+      "n_InflacionAcumulada": 66.18
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 10,
+      "n_InflacionMensual": 6.3,
+      "n_InflacionAcumulada": 76.65
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 11,
+      "n_InflacionMensual": 4.9,
+      "n_InflacionAcumulada": 85.3
+    },
+    {
+      "n_Anio": 2022,
+      "n_mes": 12,
+      "n_InflacionMensual": 5.1,
+      "n_InflacionAcumulada": 94.75
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 1,
+      "n_InflacionMensual": 6,
+      "n_InflacionAcumulada": 6
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 2,
+      "n_InflacionMensual": 6.6,
+      "n_InflacionAcumulada": 13
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 3,
+      "n_InflacionMensual": 7.7,
+      "n_InflacionAcumulada": 21.7
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 4,
+      "n_InflacionMensual": 8.4,
+      "n_InflacionAcumulada": 31.92
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 5,
+      "n_InflacionMensual": 7.8,
+      "n_InflacionAcumulada": 42.21
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 6,
+      "n_InflacionMensual": 6,
+      "n_InflacionAcumulada": 50.74
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 7,
+      "n_InflacionMensual": 6.3,
+      "n_InflacionAcumulada": 60.24
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 8,
+      "n_InflacionMensual": 12.4,
+      "n_InflacionAcumulada": 80.11
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 9,
+      "n_InflacionMensual": 12.7,
+      "n_InflacionAcumulada": 102.98
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 10,
+      "n_InflacionMensual": 8.3,
+      "n_InflacionAcumulada": 119.83
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 11,
+      "n_InflacionMensual": 12.8,
+      "n_InflacionAcumulada": 147.97
+    },
+    {
+      "n_Anio": 2023,
+      "n_mes": 12,
+      "n_InflacionMensual": 25.58,
+      "n_InflacionAcumulada": 211.4
+    },
+    {
+      "n_Anio": 2024,
+      "n_mes": 1,
+      "n_InflacionMensual": 20.6,
+      "n_InflacionAcumulada": 20.6
+    },
+    {
+      "n_Anio": 2024,
+      "n_mes": 2,
+      "n_InflacionMensual": 13.2,
+      "n_InflacionAcumulada": 36.52
+    },
+    {
+      "n_Anio": 2024,
+      "n_mes": 3,
+      "n_InflacionMensual": 10,
+      "n_InflacionAcumulada": 50.17
+    }
+  ]

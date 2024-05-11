@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Variacion de los salarios frente a la inflación</title>
+  <link rel="stylesheet" href="./css/estiloGrid2.css">
+  <link rel="stylesheet" href="./css/estiloInfo.css">
+  <link rel="icon" type="image/x-icon" href="./imagenes/favicon32.png" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <section class="container">
+    <div class="item header"></div>
+    <div class="item menu">
+      <nav class="menu">
+        <button class="menu-btn" onclick="mostrarPartes(1)">Acerca de</button>
+        <button class="menu-btn" onclick="mostrarPartes(2)">Variación mensual</button>
+        <button class="menu-btn" onclick="mostrarPartes(3)">Variación acumulada</button>
+        <button class="menu-btn" onclick="mostrarPartes(4)">Contáctenos</button>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="cerrarNavbar()">&#9776; Menú</button>
+          <div class="dropdown-content" id="contenidoDropDown">
+            <a href="#" onclick="cerrarNavbar(); mostrarPartes(1)">Acerca </a>
+            <a href="#" onclick="cerrarNavbar() ; mostrarPartes(2)">Mensual</a>
+            <a href="#" onclick="cerrarNavbar() ; mostrarPartes(3)">Acumulada </a>
+            <a href="#" onclick="cerrarNavbar() ; mostrarPartes(4)">Contáctenos </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="item content">
+      <div id="Contaniner1" class="infoContaniner1">
+        <div class="infoDatos">
+          <div class="TituloContainer">Acerca de nosotros</div>
+          <h1>Consulta de Datos</h1>
+          <p> En esta página podras realizar una consulta de la inflación y de los salarios en una tabla dinámica</p>
+             <p>La idea es dar un marco estadistico, para poder establecer comparaciones de la evolución del salario</p>
+        </div>
+        <div class="infoTabla">
+          <div class="TituloContainer">
+            <img src="./imagenes/header.svg" class="imagenprincipal">
+          </div>  
+        </div>
+      </div>
+      <div id="Contaniner2" class="infoContaniner2">
+        <div class="infoDatos">
+          <div class="TituloContainer">Inflación vs Sueldos Provinciales</div>
+          <br>
+          <label for="year">Año:</label>
+          <input type="number" id="year2" name="year2" min="2018" max="2024" value="2018" required>
+          <button id="boton2">Consultar</button>
+          <p></p>
+          <div id="datos2">
+            <table id="tablaDatos" class="tabla">
+              <thead>
+                <tr>
+                  <th>Año</th>
+                  <th>Mes</th>
+                  <th>Inflación</th>
+                  <th>Sueldo</th>
+                </tr>
+              </thead>
+              <tbody id="datos2a">
+                <!-- Los datos se insertarán aquí dinámicamente -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="infoTabla">
+          <div class="TituloContainer">Gráfico comparativo</div>
+          <canvas class="chart" id="line-chart2"></canvas>
+        </div>
+      </div>
+      <div id="Contaniner3" class="infoContaniner3">
+        <div class="infoDatos">
+          <div class="TituloContainer">Inflación vs Sueldos Provinciales</div>
+          <br>
+          <label for="year">Año:</label>
+          <input type="number" id="year3" name="year2" min="2018" max="2024" value="2018" required>
+          <button id="boton3">Consultar</button>
+          <p></p>
+          <div id="datos3">
+            <table id="tablaDatos" class="tabla">
+              <thead>
+                <tr>
+                  <th>Año</th>
+                  <th>Mes</th>
+                  <th>Inflación</th>
+                  <th>Sueldo</th>
+                </tr>
+              </thead>
+              <tbody id="datos3a">
+                <!-- Los datos se insertarán aquí dinámicamente -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="infoTabla">
+          <div class="TituloContainer">Gráfico comparativo</div>
+          <canvas class="chart" id="line-chart3"></canvas>
+        </div>
+      </div>
+    </div>
+    <div class="item footer"> Todos los derechos resevados</div>
+  </section>
+  <script>
+    function mostrarPartes(num) {
+
+      document.getElementById('Contaniner1').style.display = 'none';
+      document.getElementById('Contaniner2').style.display = 'none';
+      document.getElementById('Contaniner3').style.display = 'none';
+      if (num === 1) {
+        document.getElementById('Contaniner1').style.display = 'flex';
+
+      } else if (num === 2) {
+        document.getElementById('Contaniner2').style.display = 'flex';
+        ConsultarInflacionMensual();
+      } else if (num === 3) {
+        document.getElementById('Contaniner3').style.display = 'flex';
+        ConsultarInflacionAcumulada();
+      };
+    }
+    function cerrarNavbar() {
+      if (document.getElementById('contenidoDropDown').style.display == 'none')
+        document.getElementById('contenidoDropDown').style.display = 'block';
+      else
+        document.getElementById('contenidoDropDown').style.display = 'none';
+    }
+  </script>
+  <script src="./js/levantarDatos.js"></script>
+  <script src="./js/grafico.js"></script>
+  <script src="./js/filtrarDatos.js"></script>
+</body>
+
+</html>

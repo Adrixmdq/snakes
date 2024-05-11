@@ -1,0 +1,95 @@
+.infoContaniner1 {
+   
+    display: inline-flex;
+    width: auto;
+    flex-flow: row;
+    height: auto;
+    justify-content: space-around;
+    
+}
+.infoContaniner2 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: auto;
+    flex-flow: row;
+    height: auto;
+    justify-content: space-around;
+    display: none;
+}
+.infoContaniner3 {
+    display: inline-flex;
+    width: 100vw;
+    height: fit-content;
+    flex-flow: row;
+    justify-content: space-around;
+    display: none;
+}
+.infoDatos{
+    background: grey;
+    width: 50vw;
+    justify-content: space-around;
+    padding: 10px;
+}
+.infoTabla {
+    background: rgb(167, 202, 226);
+    width: 50vw;
+    justify-content: space-around;
+    padding: 10px;
+}
+.datonumerico{
+    text-align: right;
+    width: 10vw;
+}
+#tablaDatos th {
+    padding: 8px; /* Ajusta el relleno según sea necesario */
+    border: 1px solid #000; /* Añade un borde de 1px sólido alrededor de las celdas de encabezado */
+  }
+.tabla{
+    align-content: center;
+    justify-content: space-around;
+    padding: auto;
+}
+.chart {
+    width: 25vw;
+    height: 25vh; /* ajusta la altura según tu necesidad */
+    border: 1px solid #ccc;
+  }
+  .TituloContainer{
+    font-size: 3dvw;
+    align-content: center;
+    text-align: center;
+}
+.imagenprincipal{
+    width: 50vw;
+    height: fit-content ;
+}
+@media screen and (max-width: 853px) {
+    .infoDatos,.infoTabla{
+        width: 100vw;
+    }  
+    .infoContaniner1, .infoContaniner2, .infoContaniner3{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 600px) {
+    .infoDatos,.infoTabla{
+        width: 100vw;
+    }  
+    .infoContaniner1, .infoContaniner2, .infoContaniner3{
+        flex-direction: column;
+    }
+    .header, .footer, .menu,.dropdown-content {
+        background-color: #0d3f5e;
+    } 
+}
+@media screen and (max-width: 480px) {
+    .infoDatos,.infoTabla{
+        width: 100vw;
+    }  
+    .infoContaniner1, .infoContaniner2, .infoContaniner3{
+        flex-direction: column;
+    }
+    .header, .footer, .menu,.dropdown-content {
+        background-color: #0d3f5e;
+    } 
+}
