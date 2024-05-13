@@ -24,6 +24,22 @@
     justify-content: space-around;
     display: none;
 }
+.infoContaniner4 {
+    
+    width: auto;
+    flex-flow: block;
+    height: 80vh;
+    justify-content: space-around;
+    background: grey;
+    font-size:  1.5vw;
+}
+.form{
+    padding: 8px; /* Ajusta el relleno según sea necesario */
+    border: 1px solid #000; 
+    width: 50vw;
+    font-size:  1.5vw;
+    justify-content: space-between;
+}
 .infoDatos{
     background: grey;
     width: 50vw;

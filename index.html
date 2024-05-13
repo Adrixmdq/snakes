@@ -105,6 +105,60 @@
           <canvas class="chart" id="line-chart3"></canvas>
         </div>
       </div>
+      <div id="Contaniner4" class="infoContaniner4">
+        <form id="formulario" class="form" onsubmit="return validarFormulario()">
+            <h1>Formulario de contacto</h1>
+            <br>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="email">Email:  </label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
+            <div>
+                <label for="motivo">Motivo de contacto:</label>
+                <select id="motivo" name="motivo" required>
+                    <option value="">Selecciona un motivo</option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Sugerencia">Sugerencia</option>
+                    <option value="Reclamo">Reclamo</option>
+                </select>
+            </div>
+            <div>
+                <label>Preferencias de contacto:</label><br>
+                <input type="checkbox" id="emailPref" name="preferencias" value="Email">
+                <label for="emailPref">Email</label><br>
+                <input type="checkbox" id="telefonoPref" name="preferencias" value="Teléfono">
+                <label for="telefonoPref">Teléfono</label>
+            </div>
+            <div>
+                <label>Género:</label><br>
+                <input type="radio" id="masculino" name="genero" value="Masculino">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" id="femenino" name="genero" value="Femenino">
+                <label for="femenino">Femenino</label>
+            </div>
+            <div>
+                <label for="imagen">Adjuntar imagen:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*" required>
+            </div>
+            <button type="submit">Enviar</button>
+           
+        </form>
+      </div>
+
+        
+
     </div>
     <div class="item footer"> Todos los derechos resevados</div>
   </section>
@@ -114,6 +168,7 @@
       document.getElementById('Contaniner1').style.display = 'none';
       document.getElementById('Contaniner2').style.display = 'none';
       document.getElementById('Contaniner3').style.display = 'none';
+      document.getElementById('Contaniner4').style.display = 'none';
       if (num === 1) {
         document.getElementById('Contaniner1').style.display = 'flex';
 
@@ -123,6 +178,9 @@
       } else if (num === 3) {
         document.getElementById('Contaniner3').style.display = 'flex';
         ConsultarInflacionAcumulada();
+      }
+      else if (num === 4) {
+        document.getElementById('Contaniner4').style.display = 'flex';
       };
     }
     function cerrarNavbar() {
@@ -131,6 +189,24 @@
       else
         document.getElementById('contenidoDropDown').style.display = 'none';
     }
+  
+    function validarFormulario() {
+            var formulario = document.getElementById("formulario");
+            var campos = formulario.querySelectorAll("input, select, textarea");
+            var validado = true;
+
+            campos.forEach(function (campo) {
+                if (!campo.checkValidity()) {
+                    campo.classList.add("error");
+                    validado = false;
+                } else {
+                    campo.classList.remove("error");
+                }
+            });
+
+
+            return validado;
+        }
   </script>
   <script src="./js/levantarDatos.js"></script>
   <script src="./js/grafico.js"></script>
