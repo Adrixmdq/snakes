@@ -110,3 +110,11 @@ body {
     .menu{
         justify-content: flex-end;    }
   }
+  @media screen and (max-width: 768px) {
+    /* Agrega tus estilos específicos para tabletas aquí */
+  }
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 480px) {
+    /* Agrega tus estilos específicos para dispositivos móviles aquí */
+  }

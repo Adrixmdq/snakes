@@ -92,7 +92,7 @@
         flex-direction: column;
     }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .infoDatos,.infoTabla{
         width: 100vw;
     }  
@@ -100,7 +100,7 @@
         flex-direction: column;
     }
     .header, .footer, .menu,.dropdown-content {
-        background-color: #0d3f5e;
+        background-color:#094971;
     } 
 }
 @media screen and (max-width: 480px) {
@@ -111,6 +111,6 @@
         flex-direction: column;
     }
     .header, .footer, .menu,.dropdown-content {
-        background-color: #0d3f5e;
+        background-color: #051f2f;
     } 
 }

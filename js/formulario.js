@@ -26,6 +26,7 @@
       setTimeout(() => {
         mensajeEstado.style.display = 'none';
       }, 3000);
+      
     }
     else{
         mensajeEstado.style.color = 'red';}
