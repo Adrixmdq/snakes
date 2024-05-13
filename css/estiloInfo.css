@@ -57,7 +57,11 @@
     text-align: right;
     width: 10vw;
 }
-#tablaDatos th {
+#tablaDatos2 th {
+    padding: 8px; /* Ajusta el relleno según sea necesario */
+    border: 1px solid #000; /* Añade un borde de 1px sólido alrededor de las celdas de encabezado */
+  }
+#tablaDatos3 th {
     padding: 8px; /* Ajusta el relleno según sea necesario */
     border: 1px solid #000; /* Añade un borde de 1px sólido alrededor de las celdas de encabezado */
   }
