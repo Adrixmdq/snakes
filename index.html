@@ -118,7 +118,7 @@
            <h1 class="titulocontacto"> Formulario de contacto</h1>
         </div>
         <div class="infoTabla">
-           <form id="formulario" onsubmit="enviarFormulario(event)">
+          <form id="formulario" onsubmit="return validarFormulario(event)">
             <label for="nombre">Nombre:</label><br>
             <input class="inputs" type="text" id="nombre" name="nombre" required><br>
         
@@ -150,6 +150,7 @@
         
             <input type="submit" value="Enviar">
           </form>
+          <div id="mensajeEstado"></div>
         </div>
       
       </div>
@@ -188,6 +189,7 @@
   <script src="./js/levantarDatos.js"></script>
   <script src="./js/grafico.js"></script>
   <script src="./js/filtrarDatos.js"></script>
+  <script src="./js/formulario.js"></script>
 </body>
 
 </html>
