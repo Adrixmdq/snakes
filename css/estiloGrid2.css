@@ -14,7 +14,7 @@ body {
     grid-template-columns: 1fr 9fr ;
     /*usando grid especifico como se componen cada fila columna*/
     grid-template-areas: "header menu" "content content" "footer footer";
-    min-height: 100vh;
+    min-height: 95vh;
   }
   .header {
     grid-area: header;

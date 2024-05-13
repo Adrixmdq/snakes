@@ -7,6 +7,8 @@
   <title>Variacion de los salarios frente a la inflación</title>
   <link rel="stylesheet" href="./css/estiloGrid2.css">
   <link rel="stylesheet" href="./css/estiloInfo.css">
+  <link rel="stylesheet" href="./css/estiloform.css">
+
   <link rel="icon" type="image/x-icon" href="./imagenes/favicon32.png" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
@@ -34,10 +36,15 @@
     <div class="item content">
       <div id="Contaniner1" class="infoContaniner1">
         <div class="infoDatos">
-          <div class="TituloContainer">Acerca de nosotros</div>
-          <h1>Consulta de Datos</h1>
-          <p> En esta página podras realizar una consulta de la inflación y de los salarios en una tabla dinámica</p>
-             <p>La idea es dar un marco estadistico, para poder establecer comparaciones de la evolución del salario</p>
+          <h2>Quienes somos</h2>
+          <p> Somos un conjunto de empleados estatales, preocupados por las mejoras de los empleados nacionales y provinciales. </p>
+          <h2>Objetivo de este muestreo</h2>
+          <p> Nuestro objetivo principal, es dar un marco estadistico, para poder establecer comparaciones de la evolución del salario</p>
+          <p>Para ello se muestra las variaciones de los salarios tanto mensual como acumulados anualmnente</p>
+
+          <h2>Precisas otras comparaciones?</h2>
+          <p> Completa nuestra pagina de contacto indicandonos, la comparación que te gustaría ver.</p>
+             
         </div>
         <div class="infoTabla">
           <div class="TituloContainer">
@@ -104,61 +111,48 @@
           <div class="TituloContainer">Gráfico comparativo</div>
           <canvas class="chart" id="line-chart3"></canvas>
         </div>
+      
       </div>
       <div id="Contaniner4" class="infoContaniner4">
-        <form id="formulario" class="form" onsubmit="return validarFormulario()">
-            <h1>Formulario de contacto</h1>
-            <br>
-            <div>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
-            <div>
-                <label for="email">Email:  </label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono">
-            </div>
-            <div>
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-            </div>
-            <div>
-                <label for="motivo">Motivo de contacto:</label>
-                <select id="motivo" name="motivo" required>
-                    <option value="">Selecciona un motivo</option>
-                    <option value="Consulta">Consulta</option>
-                    <option value="Sugerencia">Sugerencia</option>
-                    <option value="Reclamo">Reclamo</option>
-                </select>
-            </div>
-            <div>
-                <label>Preferencias de contacto:</label><br>
-                <input type="checkbox" id="emailPref" name="preferencias" value="Email">
-                <label for="emailPref">Email</label><br>
-                <input type="checkbox" id="telefonoPref" name="preferencias" value="Teléfono">
-                <label for="telefonoPref">Teléfono</label>
-            </div>
-            <div>
-                <label>Género:</label><br>
-                <input type="radio" id="masculino" name="genero" value="Masculino">
-                <label for="masculino">Masculino</label><br>
-                <input type="radio" id="femenino" name="genero" value="Femenino">
-                <label for="femenino">Femenino</label>
-            </div>
-            <div>
-                <label for="imagen">Adjuntar imagen:</label>
-                <input type="file" id="imagen" name="imagen" accept="image/*" required>
-            </div>
-            <button type="submit">Enviar</button>
-           
-        </form>
-      </div>
-
+        <div class="infoDatos">
+           <h1 class="titulocontacto"> Formulario de contacto</h1>
+        </div>
+        <div class="infoTabla">
+           <form id="formulario" onsubmit="enviarFormulario(event)">
+            <label for="nombre">Nombre:</label><br>
+            <input class="inputs" type="text" id="nombre" name="nombre" required><br>
         
-
+            <label for="email">Email:</label><br>
+            <input class="inputs" type="email" id="email" name="email" required><br>
+        
+            <label for="telefono">Teléfono:</label><br>
+            <input class="inputs" type="tel" id="telefono" name="telefono" required><br>
+        
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea class="inputs" id="mensaje" name="mensaje" rows="5" required></textarea><br>
+        
+            <label for="ocupacion">Ocupación:</label><br>
+            <select id="ocupacion" name="ocupacion" required>
+              <option value="">Selecciona una opción</option>
+              <option value="trabajando">Trabajando</option>
+              <option value="jubilado">Jubilado</option>
+            </select><br>
+        
+            <div>
+              <span>Trabajando en:</span><br>
+              <input type="checkbox" id="nacion" name="trabajando_en" value="nacion">
+              <label for="nacion">Nación</label><br>
+              <input type="checkbox" id="provincia" name="trabajando_en" value="provincia">
+              <label for="provincia">Provincia</label><br>
+              <input type="checkbox" id="municipalidad" name="trabajando_en" value="municipalidad">
+              <label for="municipalidad">Municipalidad</label><br>
+            </div>
+        
+            <input type="submit" value="Enviar">
+          </form>
+        </div>
+      
+      </div>
     </div>
     <div class="item footer"> Todos los derechos resevados</div>
   </section>
@@ -190,23 +184,6 @@
         document.getElementById('contenidoDropDown').style.display = 'none';
     }
   
-    function validarFormulario() {
-            var formulario = document.getElementById("formulario");
-            var campos = formulario.querySelectorAll("input, select, textarea");
-            var validado = true;
-
-            campos.forEach(function (campo) {
-                if (!campo.checkValidity()) {
-                    campo.classList.add("error");
-                    validado = false;
-                } else {
-                    campo.classList.remove("error");
-                }
-            });
-
-
-            return validado;
-        }
   </script>
   <script src="./js/levantarDatos.js"></script>
   <script src="./js/grafico.js"></script>
